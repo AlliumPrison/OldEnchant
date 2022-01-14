@@ -44,7 +44,7 @@ public class EnchantSeed
    * */
   public int get(){
 
-    boolean access = fSeed.isAccessible();
+    boolean access = fSeed.canAccess(fSeed);
     int result = 0;
     fSeed.setAccessible(true);
     try {
@@ -64,7 +64,7 @@ public class EnchantSeed
    * */
 
   public void set(int seed){
-    boolean access = fSeed.isAccessible();
+    boolean access = fSeed.canAccess(fSeed);
 
     fSeed.setAccessible(true);
     try {
