@@ -1,0 +1,5 @@
+me\varmetek\oldenchant\OldEnchantPlugin.class
+me\varmetek\oldenchant\utility\EnchantSeed.class
+me\varmetek\oldenchant\utility\ReflectionConfig.class
+me\varmetek\oldenchant\utility\ReflectionUtil.class
+me\varmetek\oldenchant\listener\EnchantListener.class
