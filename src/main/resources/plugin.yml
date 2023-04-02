@@ -1,6 +1,7 @@
 name: OldEnchant
 main: me.varmetek.oldenchant.OldEnchantPlugin
-version: 1.0.0
+version: ${project.version}
 description: An enchantment plugin made by Varmetek
 authors:
   - Varmetek
+  - FurkanZhlp
